@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "todolist"
+version = "0.1.0"
+description = "Package for ToDoList project"
+authors = ["Edenerus <markeev.25@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+django-environ = "^0.10.0"
+docker = "^6.0.1"
+pillow = "^9.4.0"
+gunicorn = "^20.1.0"
+psycopg2-binary = "^2.9.5"
+djangorestframework = "^3.14.0"
+social-auth-app-django = "^5.2.0"
+django-filter = "^23.1"
+pydantic = "^1.10.7"
+requests = "^2.29.0"
+marshmallow-dataclass = "^8.5.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
